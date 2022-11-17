@@ -1,22 +1,12 @@
 \providecommand{\main}{..}  
 % *Modification: redefine path location, must go before \documentclass
 \documentclass[../computer-history.tex]{subfiles}
-\graphicspath{{\subfix{../images/}}}
 
 \begin{document}
-\begin{figure}[bh]
-\centering
-\includegraphics[width=3cm]{overleaf-logo}
-
-\label{fig:img1}
-\caption{Overleaf logo}
-\end{figure}
-
-This provides an example of BibTeX and bibliography management using subfiles. Three items are cited: \textit{The \LaTeX\ Companion} book \cite{latexcompanion}, the Einstein journal paper \cite{einstein}, and the Donald Knuth's website \cite{knuthwebsite}. The \LaTeX\ related items are \cite{latexcompanion,knuthwebsite}.
+We have chosen Calculators as our topic. We chose this topic because we believe it is the most fundamental part of the computer science field. The earliest commonly known calculator was the infamous Abacus. It was so powerfully simplistic that it remained in use in Asia and Europe for centuries \cite{CHM}. There is also the lesser known Antikythera Mechanism, the first scientific calculator. Dug up in 1901, this device expanded our understanding of the ancient Greek's mathematical and engineering capabilities \cite{CHM}.
 
 %********************************************************************************
 %      Bibliography
 %********************************************************************************
-\bibliographystyle{unsrt}
-\bibliography{../sources}
+\biblio
 \end{document}
